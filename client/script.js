@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv);
 
     //now we can fetch data from server ->bot's message
-    const response=await  fetch('https://chatgpt-3q5r.onrender.com',{
+    const response=await  fetch('https://chatgpt-3q5r.onrender.com/',{
         method: 'POST',
         headers:{
             'Content-Type': 'application/json'
